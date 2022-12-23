@@ -2,7 +2,7 @@ from fastapi import APIRouter, File, UploadFile
 import pandas as pd
 from io import BytesIO
 
-from utils.ddl_designer import update_df_column_names, generate_ddls, handle_ddls_snowflake
+from app.utils.ddl_designer import update_df_column_names, generate_ddls, handle_ddls_snowflake
 
 router = APIRouter()
 

@@ -78,7 +78,7 @@ def handle_ddls_snowflake(ddl, data):
 
 
 if __name__ == '__main__':
-    data = pd.read_csv('/Users/shashwatkumar/Desktop/22dec/app/tests/SampleCSVFile_2kb.csv', encoding='ISO-8859-1')
+    data = pd.read_csv('/Users/shashwatkumar/Desktop/22dec/ddl-designer/app/tests/test.csv', encoding='ISO-8859-1')
     data = update_df_column_names(data)
     table = 'dummy_table'
     db = 'dummy_db'
